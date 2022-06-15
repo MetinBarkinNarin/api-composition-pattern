@@ -1,4 +1,4 @@
-package com.coupon.couponservice.domain;
+package com.microservice.apigateway.domain;
 
 import lombok.Getter;
 import lombok.Setter;
