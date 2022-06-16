@@ -10,14 +10,14 @@
 	</parent>
 
 	<groupId>com.microservice</groupId>
-	<artifactId>api-composition -pattern</artifactId>
+	<artifactId>api-composition-pattern</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api-composition-pattern</name>
 	<packaging>pom</packaging>
 	<description>api-composition-pattern</description>
 
 	<modules>
-		<module>api-gateway</module>
+		<module>order-api-gateway</module>
 		<module>order-service</module>
 		<module>coupon-service</module>
 		<module>promotion-service</module>

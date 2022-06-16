@@ -12,8 +12,8 @@ import org.springframework.stereotype.Service;
 public class OrderService {
 
     private final OrderRepository orderRepository;
-    public Order getCreatedOrder(Long orderId) {
 
+    public Order getCreatedOrder(Long orderId) {
         Order order = orderRepository.getById(orderId);
         log.info("Created order returned order service");
         return order;

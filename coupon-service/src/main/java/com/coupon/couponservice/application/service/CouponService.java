@@ -14,9 +14,7 @@ public class CouponService {
     private final CouponRepository couponRepository;
 
     public Coupon getById(Long couponId) {
-
         Coupon coupon = couponRepository.getById(couponId);
-
         log.info("Get Coupon from Coupon-service");
         return coupon;
     }

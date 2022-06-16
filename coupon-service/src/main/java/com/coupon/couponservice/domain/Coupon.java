@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Setter
 public class Coupon {
 
-    private String id;
+    private Long id;
     private Long usedOrderId;
     private BigDecimal discount;
     private BigDecimal lowerLimit;
